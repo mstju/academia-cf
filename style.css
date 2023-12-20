@@ -74,9 +74,30 @@ cores
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .title {
   color: white;
   font-size: 60px;
+}
+
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 5px;
+  position: relative;
+  overflow: hidden;
+  background: linear-gradient(90deg, #f2ac29 50%, #f29a2e 50%);
+  background-size: 200% 100%;
+  transition: background-position 0.8s;
+}
+
+.button:hover {
+  background-position: -100% 0;
 }
