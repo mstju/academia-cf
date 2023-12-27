@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;900&display=swap");
+
+body,
+h1,
+h2,
+p,
+ul,
+li {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-image: url(./img/background.jpg);
+  background-size: cover;
+  overflow: hidden;
+}
+
+/* Navbar */
+.navbar {
+  background-color: #f2ac29;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  overflow: hidden;
+}
+
+.navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.navbar li {
+  display: inline-block;
+}
+
+.navbar a {
+  display: block;
+  color: black;
+  text-align: center;
+  text-decoration: none;
+  width: 100%;
+  margin-right: 30px;
+  padding: 1em;
+}
+
+.navbar a:hover {
+  background-color: #f29a2e;
+  transition: 0.2s;
+  color: #400601;
+}
+
+.logo {
+  width: 6%;
+  margin-right: auto;
+  margin-left: 10px;
+}
+
+/*Maps*/
+
+.map-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.map-container {
+  width: 80%;
+  max-width: 800px;
+}
+
+.map-text {
+  background-color: #fff;
+  color: #000;
+  padding: 10px;
+  text-align: center;
+  margin-top: 10px;
+}
